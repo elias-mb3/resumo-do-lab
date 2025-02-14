@@ -31,3 +31,20 @@ Os provedores de nuvem implementam robustas medidas de segurança, incluindo pro
 ### Capacidade de Gerenciamento
 
 A nuvem oferece opções avançadas de gerenciamento, como escalonamento automático de recursos conforme a demanda, implantação baseada em modelos pré-configurados, monitoramento contínuo da integridade dos recursos e alertas automáticos baseados em métricas definidas. Além disso, os ambientes de nuvem podem ser gerenciados via portais web, interfaces de linha de comando, APIs ou PowerShell, proporcionando flexibilidade operacional. 
+
+## Acordos de Nível de Serviço (SLA) do Microsoft Azure
+
+O Microsoft Azure estabelece Acordos de Nível de Serviço (SLAs) que definem os compromissos de disponibilidade e conectividade para seus serviços online. Esses SLAs especificam garantias de tempo de atividade para diferentes serviços, como Máquinas Virtuais, Banco de Dados SQL e Armazenamento, com percentuais que podem variar conforme o serviço. Por exemplo, alguns serviços oferecem garantias de até 99,95% de disponibilidade. :contentReference[oaicite:0]{index=0}
+
+## Diferenças entre IaaS, PaaS e SaaS
+
+Na computação em nuvem, existem três modelos principais de serviço, cada um oferecendo diferentes níveis de controle, flexibilidade e gerenciamento:
+
+- **Infraestrutura como Serviço (IaaS)**: Fornece acesso sob demanda a recursos de computação fundamentais, como servidores físicos e virtuais, armazenamento e redes. É ideal para empresas que desejam gerenciar diretamente sua infraestrutura de TI, mantendo controle sobre sistemas operacionais e aplicativos. :contentReference[oaicite:1]{index=1}
+
+- **Plataforma como Serviço (PaaS)**: Oferece uma plataforma completa na nuvem para desenvolvimento, execução e gerenciamento de aplicativos, sem a complexidade de gerenciar a infraestrutura subjacente. É adequada para desenvolvedores que buscam um ambiente simplificado para criar e implantar aplicativos rapidamente. :contentReference[oaicite:2]{index=2}
+
+- **Software como Serviço (SaaS)**: Disponibiliza aplicativos prontos para uso, hospedados na nuvem, acessíveis via internet. Os usuários não precisam se preocupar com a manutenção ou gerenciamento da aplicação ou da infraestrutura. É ideal para empresas que necessitam de soluções completas sem a necessidade de desenvolvimento ou gerenciamento de aplicativos. :contentReference[oaicite:3]{index=3}
+
+A escolha entre esses modelos depende das necessidades específicas de cada organização, considerando fatores como controle desejado, recursos disponíveis e objetivos de negócios.
+
