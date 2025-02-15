@@ -48,3 +48,15 @@ Na computação em nuvem, existem três modelos principais de serviço, cada um 
 
 A escolha entre esses modelos depende das necessidades específicas de cada organização, considerando fatores como controle desejado, recursos disponíveis e objetivos de negócios.
 
+## Zonas de Disponibilidade do Azure
+
+As **Zonas de Disponibilidade** são grupos de datacenters fisicamente separados dentro de uma região do Azure. Cada zona possui infraestrutura independente de energia, resfriamento e rede, garantindo que, se uma zona enfrentar interrupções, as outras possam manter a disponibilidade dos serviços regionais. Essas zonas são interconectadas por redes de alta performance com latência inferior a 2 ms, proporcionando baixa latência e alta resiliência. :contentReference[oaicite:0]{index=0}
+
+## Regiões Emparelhadas do Azure
+
+O Azure organiza algumas de suas regiões em **pares de regiões**, onde duas regiões dentro da mesma geografia são associadas para fornecer replicação e redundância geográfica. Essa configuração oferece benefícios como recuperação sequencial em casos de interrupções e atualizações planejadas de forma escalonada para minimizar o impacto. Além disso, o isolamento físico entre regiões emparelhadas reduz a probabilidade de desastres afetarem ambas simultaneamente. :contentReference[oaicite:1]{index=1}
+
+## Grupos de Gerenciamento do Azure
+
+Para organizações com múltiplas assinaturas, os **Grupos de Gerenciamento** oferecem um nível superior de governança no Azure. Eles permitem a aplicação de políticas e controle de acesso de forma unificada, propagando configurações para todas as assinaturas e recursos subordinados. É possível estruturar uma hierarquia flexível de grupos de gerenciamento e assinaturas, facilitando o gerenciamento eficiente e a conformidade com as diretrizes corporativas. :contentReference[oaicite:2]{index=2}
+
