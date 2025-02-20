@@ -60,3 +60,14 @@ O Azure organiza algumas de suas regiões em **pares de regiões**, onde duas re
 
 Para organizações com múltiplas assinaturas, os **Grupos de Gerenciamento** oferecem um nível superior de governança no Azure. Eles permitem a aplicação de políticas e controle de acesso de forma unificada, propagando configurações para todas as assinaturas e recursos subordinados. É possível estruturar uma hierarquia flexível de grupos de gerenciamento e assinaturas, facilitando o gerenciamento eficiente e a conformidade com as diretrizes corporativas. :contentReference[oaicite:2]{index=2}
 
+## Conjuntos de Disponibilidade do Azure
+
+Os **Conjuntos de Disponibilidade** são agrupamentos lógicos de Máquinas Virtuais (VMs) no Azure que aumentam a resiliência de aplicativos, distribuindo VMs entre diferentes domínios de falha e atualização. Isso minimiza o impacto de interrupções planejadas ou não planejadas, garantindo alta disponibilidade para os aplicativos. Ao implantar duas ou mais VMs em um conjunto de disponibilidade, é possível alcançar um SLA (Contrato de Nível de Serviço) de 99,95% de tempo de atividade. 
+
+## Área de Trabalho Virtual do Azure
+
+A **Área de Trabalho Virtual do Azure** é um serviço de virtualização que permite fornecer experiências completas de desktop e aplicativos remotos aos usuários. Com suporte para Windows 11, Windows 10 e Windows Server, o serviço oferece opções de sessão única ou múltiplas para escalabilidade. Além disso, é possível publicar áreas de trabalho inteiras ou aplicativos individuais, incluindo integração otimizada com o Microsoft 365 Apps para Empresas. O gerenciamento é facilitado por meio do portal do Azure, CLI, PowerShell e APIs REST, permitindo flexibilidade na administração dos recursos. 
+
+## Introdução ao Azure Functions com C#
+
+O **Azure Functions** é uma plataforma de computação sem servidor que permite executar código em resposta a eventos sem a necessidade de gerenciar a infraestrutura. Para começar com C#, você pode usar o Visual Studio para criar uma função que responde a solicitações HTTP. O processo envolve a criação de um projeto de biblioteca de classes, definição da função com um gatilho HTTP, execução local para testes e, posteriormente, implantação no Azure. Esse modelo facilita o desenvolvimento de soluções escaláveis e baseadas em eventos. 
